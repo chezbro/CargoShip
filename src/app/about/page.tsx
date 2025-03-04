@@ -14,19 +14,6 @@ const AboutPage = () => {
       />
       <section className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px]">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
-              <div className="mx-auto max-w-[620px] text-center lg:max-w-[620px]">
-                <h1 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[42px]">
-                  About CargoShip
-                </h1>
-                <p className="text-lg leading-relaxed text-body-color dark:text-body-color-dark">
-                  Having worked 15 years in Logistics for several of the industries largest companies, we noticed how customer service tended to get lost in the shuffle for Shippers & Carriers alike; if they weren&apos;t doing large volumes in business.
-                </p>
-              </div>
-            </div>
-          </div>
-
           <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
             <div className="wow fadeInUp" data-wow-delay=".15s">
               <div className="relative h-[400px] w-full overflow-hidden rounded-sm">
