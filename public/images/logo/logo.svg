@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="140" height="30" viewBox="0 0 140 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M10 5H130V25H10V5Z" fill="#4A6CF7"/>
+  <path d="M10 5H130V25H10V5Z" fill="#302B4B"/>
   <path d="M20 10H120V20H20V10Z" fill="white"/>
-  <text x="30" y="17" font-family="Arial" font-size="12" fill="#4A6CF7" font-weight="bold">CargoShip</text>
+  <image x="30" y="8" width="80" height="14" href="/images/logo/black-logo.svg"/>
 </svg>

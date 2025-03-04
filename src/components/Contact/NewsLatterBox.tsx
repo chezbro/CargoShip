@@ -13,7 +13,7 @@ const NewsLatterBox = () => {
   }, []);
 
   // Use a safe color that works for both themes during SSR
-  const safeColor = mounted ? (theme === "light" ? "#4A6CF7" : "#fff") : "currentColor";
+  const safeColor = mounted ? (theme === "light" ? "#302B4B" : "#fff") : "currentColor";
   
   return (
     <div className="relative z-10 rounded-sm bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">

@@ -14,12 +14,6 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
-    id: 3,
-    title: "Partners",
-    path: "/partners",
-    newTab: false,
-  },
-  {
     id: 4,
     title: "Contact Us",
     path: "/contact",
