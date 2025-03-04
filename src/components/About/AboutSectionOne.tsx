@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Your Global Shipping Partner"
-                paragraph="With decades of experience in international logistics, we provide comprehensive shipping solutions tailored to meet your specific cargo requirements. Our expertise spans across all major shipping routes and cargo types."
+                title="Your Trusted Logistics Partner"
+                paragraph="With 15 years of experience in logistics, we understand the importance of treating every shipment with the same level of care and attention, regardless of size or volume."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Global Network Coverage" />
-                    <List text="Advanced Tracking Systems" />
-                    <List text="Comprehensive Insurance" />
+                    <List text="No Excuses Service" />
+                    <List text="Personal Attention" />
+                    <List text="15 Years Experience" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="24/7 Customer Support" />
-                    <List text="Custom Clearance Services" />
+                    <List text="24/7 Support" />
                     <List text="Competitive Rates" />
+                    <List text="Armstrong Transport Group Affiliation" />
                   </div>
                 </div>
               </div>

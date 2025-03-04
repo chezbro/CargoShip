@@ -12,7 +12,6 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
-import Footer from "@/components/Footer";
 
 const HomePage = () => {
   return (
@@ -27,7 +26,6 @@ const HomePage = () => {
       <Testimonials />
       <Pricing />
       <Contact />
-      <Footer />
     </>
   );
 };

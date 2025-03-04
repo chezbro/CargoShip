@@ -14,7 +14,7 @@ const ContactPage = () => {
                   Contact Us
                 </h1>
                 <p className="text-lg leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Get in touch with us for all your logistics needs. We're here to help with any questions or concerns you may have.
                 </p>
               </div>
             </div>
@@ -27,16 +27,14 @@ const ContactPage = () => {
                   Get in Touch
                 </h2>
                 <p className="mb-8 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  We're headquartered in Metro Detroit, MI, and ready to assist you with all your shipping and logistics requirements.
                 </p>
                 <div className="mb-8">
                   <h3 className="mb-4 text-xl font-bold text-dark dark:text-white">
                     Office Location
                   </h3>
                   <p className="text-base text-body-color dark:text-body-color-dark">
-                    123 Business Street
-                    <br />
-                    New York, NY 10001
+                    Metro Detroit, MI
                     <br />
                     United States
                   </p>
@@ -46,11 +44,9 @@ const ContactPage = () => {
                     Contact Info
                   </h3>
                   <p className="text-base text-body-color dark:text-body-color-dark">
-                    Phone: +1 (555) 123-4567
+                    Phone: (248) 421-1089
                     <br />
-                    Email: info@cargoship.com
-                    <br />
-                    Hours: Mon-Fri 9:00 AM - 6:00 PM
+                    Email: Sean@cargoshipllc.com
                   </p>
                 </div>
                 <div>

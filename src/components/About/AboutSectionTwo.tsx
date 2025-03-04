@@ -28,26 +28,26 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Expert Logistics Team
+                  Industry Expertise
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Our experienced logistics professionals handle every aspect of your shipment with precision and care, ensuring smooth operations from start to finish.
+                  With 15 years of experience working with industry leaders, we've developed deep expertise in logistics and understand the unique challenges faced by both shippers and carriers.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Advanced Technology
+                  Personal Touch
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  State-of-the-art tracking systems and digital platforms provide real-time visibility and control over your shipments.
+                  Unlike larger logistics companies, we treat every shipment as if it's our last, providing personalized attention and ensuring no customer gets lost in the shuffle.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Global Partnerships
+                  Strategic Partnership
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Strategic partnerships with major ports, carriers, and customs authorities worldwide ensure efficient and reliable shipping services.
+                  Our affiliation with Armstrong Transport Group provides us with the resources and network to deliver comprehensive logistics solutions while maintaining our personal touch.
                 </p>
               </div>
             </div>

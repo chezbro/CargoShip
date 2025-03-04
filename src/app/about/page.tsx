@@ -21,7 +21,7 @@ const AboutPage = () => {
                   About CargoShip
                 </h1>
                 <p className="text-lg leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Having worked 15 years in Logistics for several of the industries largest companies, we noticed how customer service tended to get lost in the shuffle for Shippers & Carriers alike; if they weren't doing large volumes in business.
                 </p>
               </div>
             </div>
@@ -44,10 +44,10 @@ const AboutPage = () => {
                   Our Story
                 </h2>
                 <p className="mb-8 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  At CargoShip LLC, we believe that every shipment deserves the same level of attention and care, regardless of size. Our commitment to exceptional service and our "No Excuses" approach sets us apart in the logistics industry.
                 </p>
                 <p className="mb-8 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Our affiliation with Armstrong Transport Group provides us with the resources and network to deliver comprehensive logistics solutions while maintaining the personal touch that makes us unique.
                 </p>
                 <div className="flex items-center">
                   <div className="flex items-center">
@@ -61,7 +61,7 @@ const AboutPage = () => {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-semibold text-dark dark:text-white">
-                        John Doe
+                        Sean Seid
                       </h4>
                       <p className="text-sm text-body-color dark:text-body-color-dark">
                         CEO & Founder
@@ -84,7 +84,7 @@ const AboutPage = () => {
                   Our Mission
                 </h2>
                 <p className="text-lg leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  To provide exceptional logistics services with a personal touch, treating every shipment as if it's our last, with No Excuses.
                 </p>
               </div>
             </div>
