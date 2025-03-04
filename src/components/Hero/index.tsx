@@ -15,7 +15,7 @@ const Hero = () => {
                   Your Trusted Logistics Partner
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                Our approach is to service every single shipment as it's our last with No Excuses.
+                Our approach is to service every single shipment as it&apos;s our last with No Excuses.
 
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
