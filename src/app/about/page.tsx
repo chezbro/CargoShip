@@ -21,7 +21,7 @@ const AboutPage = () => {
                   About CargoShip
                 </h1>
                 <p className="text-lg leading-relaxed text-body-color dark:text-body-color-dark">
-                  Having worked 15 years in Logistics for several of the industries largest companies, we noticed how customer service tended to get lost in the shuffle for Shippers & Carriers alike; if they weren't doing large volumes in business.
+                  Having worked 15 years in Logistics for several of the industries largest companies, we noticed how customer service tended to get lost in the shuffle for Shippers & Carriers alike; if they weren&apos;t doing large volumes in business.
                 </p>
               </div>
             </div>
@@ -44,7 +44,7 @@ const AboutPage = () => {
                   Our Story
                 </h2>
                 <p className="mb-8 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  At CargoShip LLC, we believe that every shipment deserves the same level of attention and care, regardless of size. Our commitment to exceptional service and our "No Excuses" approach sets us apart in the logistics industry.
+                  At CargoShip LLC, we believe that every shipment deserves the same level of attention and care, regardless of size. Our commitment to exceptional service and our &quot;No Excuses&quot; approach sets us apart in the logistics industry.
                 </p>
                 <p className="mb-8 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Our affiliation with Armstrong Transport Group provides us with the resources and network to deliver comprehensive logistics solutions while maintaining the personal touch that makes us unique.
@@ -84,7 +84,7 @@ const AboutPage = () => {
                   Our Mission
                 </h2>
                 <p className="text-lg leading-relaxed text-body-color dark:text-body-color-dark">
-                  To provide exceptional logistics services with a personal touch, treating every shipment as if it's our last, with No Excuses.
+                  To provide exceptional logistics services with a personal touch, treating every shipment as if it&apos;s our last, with No Excuses.
                 </p>
               </div>
             </div>

@@ -31,7 +31,7 @@ const AboutSectionTwo = () => {
                   Industry Expertise
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  With 15 years of experience working with industry leaders, we've developed deep expertise in logistics and understand the unique challenges faced by both shippers and carriers.
+                  With 15 years of experience working with industry leaders, we&apos;ve developed deep expertise in logistics and understand the unique challenges faced by both shippers and carriers.
                 </p>
               </div>
               <div className="mb-9">
@@ -39,7 +39,7 @@ const AboutSectionTwo = () => {
                   Personal Touch
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Unlike larger logistics companies, we treat every shipment as if it's our last, providing personalized attention and ensuring no customer gets lost in the shuffle.
+                  Unlike larger logistics companies, we treat every shipment as if it&apos;s our last, providing personalized attention and ensuring no customer gets lost in the shuffle.
                 </p>
               </div>
               <div className="mb-1">

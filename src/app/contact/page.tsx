@@ -14,7 +14,7 @@ const ContactPage = () => {
                   Contact Us
                 </h1>
                 <p className="text-lg leading-relaxed text-body-color dark:text-body-color-dark">
-                  Get in touch with us for all your logistics needs. We're here to help with any questions or concerns you may have.
+                  Get in touch with us for all your logistics needs. We&apos;re here to help with any questions or concerns you may have.
                 </p>
               </div>
             </div>
@@ -27,7 +27,7 @@ const ContactPage = () => {
                   Get in Touch
                 </h2>
                 <p className="mb-8 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  We're headquartered in Metro Detroit, MI, and ready to assist you with all your shipping and logistics requirements.
+                  We&apos;re headquartered in Metro Detroit, MI, and ready to assist you with all your shipping and logistics requirements.
                 </p>
                 <div className="mb-8">
                   <h3 className="mb-4 text-xl font-bold text-dark dark:text-white">
