@@ -57,9 +57,9 @@ const featuresData: Feature[] = [
         <path d="M20 15C22.75 15 25 17.25 25 20C25 22.75 22.75 25 20 25C17.25 25 15 22.75 15 20C15 17.25 17.25 15 20 15ZM20 0C22.75 0 25 2.25 25 5C25 7.75 22.75 10 20 10C17.25 10 15 7.75 15 5C15 2.25 17.25 0 20 0ZM5 30C7.75 30 10 32.25 10 35C10 37.75 7.75 40 5 40C2.25 40 0 37.75 0 35C0 32.25 2.25 30 5 30ZM5 15C7.75 15 10 17.25 10 20C10 22.75 7.75 25 5 25C2.25 25 0 22.75 0 20C0 17.25 2.25 15 5 15ZM5 0C7.75 0 10 2.25 10 5C10 7.75 7.75 10 5 10C2.25 10 0 7.75 0 5C0 2.25 2.25 0 5 0ZM35 0C37.75 0 40 2.25 40 5C40 7.75 37.75 10 35 10C32.25 10 30 7.75 30 5C30 2.25 32.25 0 35 0Z" />
       </svg>
     ),
-    title: "Cross-Border & Expedited",
+    title: "Cross-Border",
     paragraph:
-      "Cross-border shipping services between US, Canada, and Mexico, plus expedited delivery options for time-sensitive shipments.",
+      "Cross-border shipping services between US, Canada, and Mexico.",
   },
   {
     id: 5,
@@ -75,6 +75,21 @@ const featuresData: Feature[] = [
     title: "Intermodal",
     paragraph:
       "Seamless intermodal transportation solutions combining rail and truck services for efficient long-haul shipping.",
+  },
+  {
+    id: 6,
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+        <path
+          opacity="0.5"
+          d="M20 0C8.954 0 0 8.954 0 20C0 31.046 8.954 40 20 40C31.046 40 40 31.046 40 20C40 8.954 31.046 0 20 0ZM20 4C28.837 4 36 11.163 36 20C36 28.837 28.837 36 20 36C11.163 36 4 28.837 4 20C4 11.163 11.163 4 20 4Z"
+        />
+        <path d="M20 8C18.895 8 18 8.895 18 10V20C18 20.796 18.474 21.559 19.262 21.857L27.262 25.857C28.266 26.274 29.398 25.775 29.816 24.771C30.234 23.768 29.735 22.635 28.731 22.217L22 18.721V10C22 8.895 21.105 8 20 8Z" />
+      </svg>
+    ),
+    title: "Expedited Options",
+    paragraph:
+      "We offer expedited delivery options for time-sensitive shipments.",
   },
 ];
 

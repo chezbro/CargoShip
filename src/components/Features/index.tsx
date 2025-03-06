@@ -8,9 +8,9 @@ import Image from "next/image";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="features" className="py-8 md:py-12 lg:py-16">
         <div className="container">
-          <div className="mb-16">
+          <div className="mb-12">
             <div className="relative h-[400px] w-full overflow-hidden rounded-lg">
               <Image
                 src="/images/cargo-truck.jpg"

@@ -55,8 +55,10 @@ const ContactPage = () => {
                   </h3>
                   <div className="flex space-x-4">
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/company/cargoship-llc/?_l=en_US"
                       className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <svg
                         width="24"
@@ -66,41 +68,7 @@ const ContactPage = () => {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M12 2C6.477 2 2 6.477 2 12C2 16.991 4.388 21.128 8.207 22.998C8.756 23.114 8.935 22.762 8.935 22.456C8.935 22.18 8.935 21.51 8.935 20.78C6.935 21.28 6.477 20.18 6.477 20.18C5.935 18.82 5.477 18.82 5.477 18.82C4.935 18.82 5.477 19.28 5.477 19.28C6.035 20.82 7.477 20.28 8.935 20.18C8.935 19.28 9.477 18.82 9.935 18.82C12.935 18.82 14.477 16.82 14.477 16.82C14.477 15.28 13.935 14.18 13.477 13.82C13.935 13.82 14.477 13.82 14.935 13.82C15.477 13.82 15.935 13.82 16.477 13.82C17.935 13.82 19.477 15.28 19.477 16.82C19.477 18.82 17.935 20.82 14.935 20.82C15.477 21.28 15.935 21.82 15.935 22.456C15.935 23.114 15.756 23.466 15.207 23.582C19.028 21.712 21.416 17.574 21.416 12.59C21.416 6.477 17.123 2 12 2Z"
-                          fill="currentColor"
-                        />
-                      </svg>
-                    </a>
-                    <a
-                      href="#"
-                      className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M12 2C6.477 2 2 6.477 2 12C2 16.991 4.388 21.128 8.207 22.998C8.756 23.114 8.935 22.762 8.935 22.456C8.935 22.18 8.935 21.51 8.935 20.78C6.935 21.28 6.477 20.18 6.477 20.18C5.935 18.82 5.477 18.82 5.477 18.82C4.935 18.82 5.477 19.28 5.477 19.28C6.035 20.82 7.477 20.28 8.935 20.18C8.935 19.28 9.477 18.82 9.935 18.82C12.935 18.82 14.477 16.82 14.477 16.82C14.477 15.28 13.935 14.18 13.477 13.82C13.935 13.82 14.477 13.82 14.935 13.82C15.477 13.82 15.935 13.82 16.477 13.82C17.935 13.82 19.477 15.28 19.477 16.82C19.477 18.82 17.935 20.82 14.935 20.82C15.477 21.28 15.935 21.82 15.935 22.456C15.935 23.114 15.756 23.466 15.207 23.582C19.028 21.712 21.416 17.574 21.416 12.59C21.416 6.477 17.123 2 12 2Z"
-                          fill="currentColor"
-                        />
-                      </svg>
-                    </a>
-                    <a
-                      href="#"
-                      className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M12 2C6.477 2 2 6.477 2 12C2 16.991 4.388 21.128 8.207 22.998C8.756 23.114 8.935 22.762 8.935 22.456C8.935 22.18 8.935 21.51 8.935 20.78C6.935 21.28 6.477 20.18 6.477 20.18C5.935 18.82 5.477 18.82 5.477 18.82C4.935 18.82 5.477 19.28 5.477 19.28C6.035 20.82 7.477 20.28 8.935 20.18C8.935 19.28 9.477 18.82 9.935 18.82C12.935 18.82 14.477 16.82 14.477 16.82C14.477 15.28 13.935 14.18 13.477 13.82C13.935 13.82 14.477 13.82 14.935 13.82C15.477 13.82 15.935 13.82 16.477 13.82C17.935 13.82 19.477 15.28 19.477 16.82C19.477 18.82 17.935 20.82 14.935 20.82C15.477 21.28 15.935 21.82 15.935 22.456C15.935 23.114 15.756 23.466 15.207 23.582C19.028 21.712 21.416 17.574 21.416 12.59C21.416 6.477 17.123 2 12 2Z"
+                          d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z"
                           fill="currentColor"
                         />
                       </svg>
@@ -120,85 +88,83 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px]">
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
-              <div className="mx-auto max-w-[620px] text-center lg:max-w-[620px]">
-                <h2 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[42px]">
-                  Send us a Message
-                </h2>
-                <p className="text-lg leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-          </div>
 
           <div className="mt-16">
-            <form className="wow fadeInUp" data-wow-delay=".15s">
-              <div className="-mx-4 flex flex-wrap">
-                <div className="w-full px-4 md:w-1/2">
-                  <div className="mb-8">
-                    <label
-                      htmlFor="name"
-                      className="mb-2 block text-sm font-medium text-dark dark:text-white"
-                    >
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      placeholder="Enter your name"
-                      className="w-full rounded-sm border border-stroke bg-white px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary focus-visible:shadow-none dark:border-body-color dark:bg-dark dark:text-white dark:focus:border-primary"
-                    />
-                  </div>
-                </div>
-                <div className="w-full px-4 md:w-1/2">
-                  <div className="mb-8">
-                    <label
-                      htmlFor="email"
-                      className="mb-2 block text-sm font-medium text-dark dark:text-white"
-                    >
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      placeholder="Enter your email"
-                      className="w-full rounded-sm border border-stroke bg-white px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary focus-visible:shadow-none dark:border-body-color dark:bg-dark dark:text-white dark:focus:border-primary"
-                    />
-                  </div>
-                </div>
-                <div className="w-full px-4">
-                  <div className="mb-8">
-                    <label
-                      htmlFor="message"
-                      className="mb-2 block text-sm font-medium text-dark dark:text-white"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      rows={5}
-                      placeholder="Enter your message"
-                      className="w-full rounded-sm border border-stroke bg-white px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary focus-visible:shadow-none dark:border-body-color dark:bg-dark dark:text-white dark:focus:border-primary"
-                    ></textarea>
-                  </div>
-                </div>
-                <div className="w-full px-4">
-                  <button
-                    type="submit"
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    Send Message
-                  </button>
+            <div className="-mx-4 flex flex-wrap">
+              <div className="w-full px-4">
+                <div className="mx-auto max-w-[620px] text-center lg:max-w-[620px]">
+                  <h2 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[42px]">
+                    Send us a Message
+                  </h2>
+                  <p className="text-lg leading-relaxed text-body-color dark:text-body-color-dark">
+                    Have a specific question or request? Fill out the form below and our team will get back to you as soon as possible.
+                  </p>
                 </div>
               </div>
-            </form>
+            </div>
+
+            <div className="mt-8">
+              <form className="wow fadeInUp" data-wow-delay=".15s">
+                <div className="-mx-4 flex flex-wrap">
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="name"
+                        className="mb-2 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Name
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name"
+                        className="w-full rounded-sm border border-stroke bg-white px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary focus-visible:shadow-none dark:border-body-color dark:bg-dark dark:text-white dark:focus:border-primary"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="email"
+                        className="mb-2 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Email
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        className="w-full rounded-sm border border-stroke bg-white px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary focus-visible:shadow-none dark:border-body-color dark:bg-dark dark:text-white dark:focus:border-primary"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-full px-4">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="message"
+                        className="mb-2 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Message
+                      </label>
+                      <textarea
+                        id="message"
+                        rows={5}
+                        placeholder="Enter your message"
+                        className="w-full rounded-sm border border-stroke bg-white px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary focus-visible:shadow-none dark:border-body-color dark:bg-dark dark:text-white dark:focus:border-primary"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div className="w-full px-4">
+                    <button
+                      type="submit"
+                      className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    >
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>
