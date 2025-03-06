@@ -6,6 +6,13 @@ import { useEffect, useState } from "react";
 const NewsLatterBox = () => {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    success?: boolean;
+    message?: string;
+  }>({});
   
   // Only show theme-dependent content when mounted on client
   useEffect(() => {
@@ -14,6 +21,55 @@ const NewsLatterBox = () => {
 
   // Use a safe color that works for both themes during SSR
   const safeColor = mounted ? (theme === "light" ? "#302B4B" : "#fff") : "currentColor";
+  
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    // Validate form
+    if (!email) {
+      setSubmitStatus({
+        success: false,
+        message: "Email is required",
+      });
+      return;
+    }
+    
+    setIsSubmitting(true);
+    
+    try {
+      const response = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email }),
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok) {
+        setSubmitStatus({
+          success: true,
+          message: "You have successfully subscribed to our newsletter!",
+        });
+        // Reset form
+        setName("");
+        setEmail("");
+      } else {
+        setSubmitStatus({
+          success: false,
+          message: data.error || "Something went wrong. Please try again.",
+        });
+      }
+    } catch (error) {
+      setSubmitStatus({
+        success: false,
+        message: "An error occurred. Please try again later.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
   
   return (
     <div className="relative z-10 rounded-sm bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">
@@ -24,28 +80,47 @@ const NewsLatterBox = () => {
         Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
         massa quis lectus.
       </p>
-      <div>
+      
+      {submitStatus.message && (
+        <div 
+          className={`mb-8 rounded-sm px-4 py-3 text-base ${
+            submitStatus.success 
+              ? "bg-green-50 text-green-700 dark:bg-green-900/30 dark:text-green-400" 
+              : "bg-red-50 text-red-700 dark:bg-red-900/30 dark:text-red-400"
+          }`}
+        >
+          {submitStatus.message}
+        </div>
+      )}
+      
+      <form onSubmit={handleSubmit}>
         <input
           type="text"
           name="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
           placeholder="Enter your name"
           className="border-stroke mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
         />
         <input
           type="email"
           name="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter your email"
           className="border-stroke mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
         />
-        <input
+        <button
           type="submit"
-          value="Subscribe"
-          className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
-        />
+          disabled={isSubmitting}
+          className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark disabled:opacity-70 disabled:cursor-not-allowed"
+        >
+          {isSubmitting ? "Subscribing..." : "Subscribe"}
+        </button>
         <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
           No spam guaranteed, So please don&apos;t send any spam mail.
         </p>
-      </div>
+      </form>
 
       <div>
         <span className="absolute left-2 top-7">
